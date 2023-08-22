@@ -3,14 +3,279 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Portfolio</title>
   </head>
   <body>
+    <h2>Projects using <span class="html">HTML</span> + <span class="css">CSS</span> + <span class="js">JavaScript</span></h2>
     <ul>
       <li><a href="https://mr-geones.github.io/base-apparel-coming-soon-page/" title="Base Apparel - Coming Soon Page">Base Apparel - Coming Soon Page</a></li>
+      <li>
+        <a href="https://mr-geones.github.io/simple-to-do-list/" title="Simple To-Do List">Simple To-Do List</a>
+        <p>A simple to-do list I made in vanilla JavaScript to test my skills.</p>
+      </li>
+    </ul>
+
+    <h2>Projects using <span class="html">HTML</span> + <span class="css">CSS</span></h2>
+    <ul>
       <li><a href="https://mr-geones.github.io/results-summary-component/" title="Results Summary Component">Results Summary Component</a></li>
       <li><a href="https://mr-geones.github.io/product-preview-card-component/" title="Product Preview Card Component">Product Preview Card Component</a></li>
-      <li><a href="https://mr-geones.github.io/simple-to-do-list/" title="Simple To-Do List">Simple To-Do List</a></li>
     </ul>
+
+    <h2>Projects using only <span class="js">JavaScript</span></h2>
+    <ol>
+      <li>
+        <div class="project"><span>Isograms</span></div>
+        <div class="challenge"><span>Challenge: </span>An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram.</div>
+        <div class="solution"><a href="https://github.com/mr-geones/isograms/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/isograms/tree/main/" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Reverse Words</span></div>
+        <div class="challenge"><span>Challenge: </span>Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.</div>
+        <div class="solution"><a href="https://github.com/mr-geones/reverse-words/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/reverse-words" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Is he gonna survive?</span></div>
+        <div class="challenge"><span>Challenge: </span>A hero is on his way to the castle to complete his mission. However, he's been told that the castle is surrounded with a couple of powerful dragons! each dragon takes 2 bullets to be defeated, our hero has no idea how many bullets he should carry. Assuming he's gonna grab a specific given number of bullets and move forward to fight another specific given number of dragons, will he survive? Return True if yes, False otherwise.</div>
+        <div class="solution"><a href="https://github.com/mr-geones/is-he-gonna-survive/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/is-he-gonna-survive" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Convert a string to an array</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Write a function to split a string and convert it into an array of words. Examples (Input ==> Output):<br />
+          "Robin Singh" ==> ["Robin", "Singh"]
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/convert-a-string-to-an-array/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/convert-a-string-to-an-array" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Count of positives and sum of negatives</span></div>
+        <div class="challenge"><span>Challenge: </span>Given an array of integers. Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers. 0 is neither positive nor negative. If the input is an empty array or is null, return an empty array.</div>
+        <div class="solution"><a href="https://github.com/mr-geones/count-of-positives-and-sum-of-negatives/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/count-of-positives-and-sum-of-negatives" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>School paperwork</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Your classmates asked you to copy some paperwork for them. You know that there are 'n' classmates and the paperwork has 'm' pages. Your task is to calculate how many blank pages do you need. <br />
+          If n &lt; 0 or m &lt; 0 return 0<br />
+          Example:<br />
+          n=5, m=5 : 25 <br />
+          n=-5, m=5 : 0
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/beginner-series-1-school-paperwork/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/beginner-series-1-school-paperwork" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Hello world</span></div>
+        <div class="challenge"><span>Challenge: </span>Make a simple function called greet that returns the most-famous "hello world!".</div>
+        <div class="solution"><a href="https://github.com/mr-geones/function-1-hello-world/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/function-1-hello-world" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Reversed strings</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Complete the solution so that it reverses the string passed into it. <br />
+          Example: 'world' => 'dlrow'
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/reversed-strings/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/reversed-strings" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Calculate BMI</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Write function bmi that calculates body mass index (bmi = weight / height2).<br />
+          if bmi &lt;= 18.5 return "Underweight"<br />
+          if bmi &lt;= 25.0 return "Normal"<br />
+          if bmi &lt;= 30.0 return "Overweight" <br />
+          if bmi > 30 return "Obese"
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/calculate-bmi/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/calculate-bmi" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Are you playing the banjo?</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Create a function which answers the question "Are you playing banjo?". If your name starts with the letter "R" or lower case "r", you are playing banjo! The function takes a name as its only argument, and returns one of the following strings:<br />
+          name + " plays banjo" name + " does not play banjo"<br />
+          Names given are always valid strings.
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/are-you-playing-banjo/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/are-you-playing-banjo" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>String ends with...</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).<br />
+          Examples:<br />
+          solution('abc', 'bc') // returns true<br />
+          solution('abc', 'd') // returns false
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/string-ends-with/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/string-ends-with" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Digit x Digit</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>You are asked to square every digit of a number and concatenate them. For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and 12 is 1. (81-1-1-81)<br />
+          Example #2: An input of 765 will/should return 493625 because 72 is 49, 62 is 36, and 52 is 25. (49-36-35)<br />
+          Note: The function accepts an integer and returns an integer.
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/digit-x-digit/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/digit-x-digit" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>List filtering</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.<br />
+          Example:<br />
+          filter_list([1,2,'a','b']) == [1,2]<br />
+          filter_list([1,'a','b',0,15]) == [1,0,15]<br />
+          filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/list-filtering/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/list-filtering" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Complementary DNA</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms. In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". Your function receives one side of the DNA (string, except for Haskell); you need to return the other complementary side. DNA strand is never empty or there is no DNA at all (again, except for Haskell).<br />
+          Example: (input --&gt; output)<br />
+          "ATTGC" --&gt; "TAACG"<br />
+          "GTAT" --&gt; "CATA"
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/Complementary-dna/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/Complementary-dna" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Descending order</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.<br />
+          Example:<br />
+          Input: 42145<br />
+          Output: 54421
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/descending-order/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/descending-order" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Convert boolean values to strings</span></div>
+        <div class="challenge"><span>Challenge: </span>Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.</div>
+        <div class="solution"><a href="https://github.com/mr-geones/convert-boolean-values-to-strings/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/convert-boolean-values-to-strings" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Growth of a population</span></div>
+        <div class="challenge">
+          <span>Challenge: </span> In a small town the population is p0 = 1000 at the beginning of a year. The population regularly increases by 2 percent per year and moreover 50 new inhabitants per year come to live in the town. How many years does the town need to see its population greater or equal to p = 1200 inhabitants?<br /><br />
+
+          At the end of the first year there will be:<br />
+          1000 + 1000 * 0.02 + 50 => 1070 inhabitants<br /><br />
+
+          At the end of the 2nd year there will be:<br />
+          1070 + 1070 * 0.02 + 50 => 1141 inhabitants (** number of inhabitants is an integer **)<br /><br />
+
+          At the end of the 3rd year there will be:<br />
+          1141 + 1141 * 0.02 + 50 => 1213<br /><br />
+
+          It will need 3 entire years.<br /><br />
+
+          More generally given parameters:<br /><br />
+
+          p0, percent, aug (inhabitants coming or leaving each year), p (population to equal or surpass)<br /><br />
+
+          the function nb_year should return n number of entire years needed to get a population greater or equal to p.<br /><br />
+
+          aug is an integer, percent a positive or null floating number, p0 and p are positive integers (> 0)<br /><br />
+
+          Examples:<br />
+          nb_year(1500, 5, 100, 5000) -> 15<br />
+          nb_year(1500000, 2.5, 10000, 2000000) -> 10<br /><br />
+
+          Note:<br />
+          Don't forget to convert the percent parameter as a percentage in the body of your function: if the parameter percent is 2 you have to convert it to 0.02.
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/growth-of-a-population/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/growth-of-a-population" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Count sheep</span></div>
+        <div class="challenge"><span>Challenge: </span>Given a non-negative integer, 3 for example, return a string with a murmur: "1 sheep...2 sheep...3 sheep...". Input will always be valid, i.e. no negative integers.</div>
+        <div class="solution"><a href="https://github.com/mr-geones/count-sheep/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/count-sheep" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Sum without highest and lowest number</span></div>
+        <div class="challenge">
+          <span>Challenge: </span> Sum all the numbers of a given array ( cq. list ), except the highest and the lowest element ( by value, not by index! ).<br /><br />
+
+          The highest or lowest element respectively is a single element at each edge, even if there are more than one with the same value.<br /><br />
+
+          Mind the input validation.<br /><br />
+
+          Example:<br />
+          { 6, 2, 1, 8, 10 } => 16<br />
+          { 1, 1, 11, 2, 3 } => 6<br /><br />
+
+          Input validation:<br />
+          If an empty value ( null, None, Nothing etc. ) is given instead of an array, or the given array is an empty list or a list with only 1 element, return 0.
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/sum-without-highest-and-lowest-number/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/sum-without-highest-and-lowest-number" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Disemvowel trolls</span></div>
+        <div class="challenge">
+          <span>Challenge: </span> Trolls are attacking your comment section!<br /><br />
+
+          A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.<br /><br />
+
+          Your task is to write a function that takes a string and return a new string with all vowels removed.<br /><br />
+
+          For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".<br /><br />
+
+          Note:<br />
+          for this challenge y isn't considered a vowel.
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/disemvowel-trolls/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/disemvowel-trolls" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span></span></div>
+        <div class="challenge"><span>Challenge: </span></div>
+        <div class="solution"><a href="" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span></span></div>
+        <div class="challenge"><span>Challenge: </span></div>
+        <div class="solution"><a href="" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="" title="Repository">Link to the repository on Github</a></div>
+      </li>
+    </ol>
   </body>
 </html>

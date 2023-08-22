@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+
+  --clr-font: #f0f0f0;
+
+  --clr-github-bg: #0d1117;
+  --clr-github-bg-dark: #010409;
+  --clr-github-green: #238636;
+  --clr-github-purple: #563d7c;
+  --clr-github-orange: #f06529;
+  --clr-github-blue: #2f81f7;
+  --clr-github-yellow: #f1e05a;
+  --clr-github-gray: #6d7580;
+
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --font-heavy: 900;
+}
+
+body {
+  max-width: 65ch;
+  margin-left: 4%;
+  margin-right: 4%;
+  color: var(--clr-github-gray);
+  background-color: var(--clr-github-bg-dark);
+}
+
+h2 {
+  color: var(--clr-gray);
+  font-size: 1.8rem;
+  font-weight: var(--font-bold);
+  margin-top: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 > span {
+  font-size: inherit;
+  font-weight: var(--font-heavy);
+}
+
+li {
+  list-style: decimal-leading-zero;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+div {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+div > span {
+  font-weight: var(--font-medium);
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-github-gray);
+}
+
+.html {
+  color: var(--clr-github-orange);
+}
+
+.css {
+  color: var(--clr-github-blue);
+}
+
+.js {
+  color: var(--clr-github-yellow);
+}
+
+.project span {
+  font-size: 1.4rem;
+  font-weight: var(--font-medium);
+  color: var(--clr-github-orange);
+}
+
+.description > span {
+  color: var(--clr-github-blue);
+}
+
+.challenge > span {
+  color: var(--clr-github-yellow);
+}
+
+.solution {
+  background-image: url("checkmark.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 15px;
+  padding-left: 20px;
+}
+
+.repository {
+  background-image: url("github-mark.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 15px;
+  padding-left: 20px;
+}
+
+.solution > a {
+  font-weight: var(--font-medium);
+  color: var(--clr-github-blue);
+}
+
+.solution > a:hover {
+  font-weight: var(--font-bold);
+  color: var(--clr-font);
+}
+
+.repository > a {
+  color: var(--clr-github-purple);
+}
+
+.repository > a:hover {
+  font-weight: var(--font-bold);
+  color: var(--clr-font);
+}
