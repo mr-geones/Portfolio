@@ -3,8 +3,6 @@
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -28,16 +26,14 @@
 
 body {
   max-width: 65ch;
-  margin-left: 4%;
-  margin-right: 4%;
   color: var(--clr-github-gray);
   background-color: var(--clr-github-bg-dark);
 }
 
 h2 {
-  color: var(--clr-gray);
-  font-size: 1.8rem;
-  font-weight: var(--font-bold);
+  color: var(--clr-font);
+  font-size: 1.6rem;
+  font-weight: var(--font-medium);
   margin-top: 2.2rem;
   margin-bottom: 0.5rem;
 }
@@ -65,6 +61,10 @@ div > span {
 a {
   text-decoration: none;
   color: var(--clr-github-gray);
+}
+
+sup {
+  font-size: 0.7rem;
 }
 
 .html {

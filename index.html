@@ -189,13 +189,13 @@
           <span>Challenge: </span> In a small town the population is p0 = 1000 at the beginning of a year. The population regularly increases by 2 percent per year and moreover 50 new inhabitants per year come to live in the town. How many years does the town need to see its population greater or equal to p = 1200 inhabitants?<br /><br />
 
           At the end of the first year there will be:<br />
-          1000 + 1000 * 0.02 + 50 => 1070 inhabitants<br /><br />
+          1000 + 1000 * 0.02 + 50 =&gt; 1070 inhabitants<br /><br />
 
           At the end of the 2nd year there will be:<br />
-          1070 + 1070 * 0.02 + 50 => 1141 inhabitants (** number of inhabitants is an integer **)<br /><br />
+          1070 + 1070 * 0.02 + 50 =&gt; 1141 inhabitants (** number of inhabitants is an integer **)<br /><br />
 
           At the end of the 3rd year there will be:<br />
-          1141 + 1141 * 0.02 + 50 => 1213<br /><br />
+          1141 + 1141 * 0.02 + 50 =&gt; 1213<br /><br />
 
           It will need 3 entire years.<br /><br />
 
@@ -208,8 +208,8 @@
           aug is an integer, percent a positive or null floating number, p0 and p are positive integers (> 0)<br /><br />
 
           Examples:<br />
-          nb_year(1500, 5, 100, 5000) -> 15<br />
-          nb_year(1500000, 2.5, 10000, 2000000) -> 10<br /><br />
+          nb_year(1500, 5, 100, 5000) -&gt; 15<br />
+          nb_year(1500000, 2.5, 10000, 2000000) -&gt; 10<br /><br />
 
           Note:<br />
           Don't forget to convert the percent parameter as a percentage in the body of your function: if the parameter percent is 2 you have to convert it to 0.02.
@@ -235,8 +235,8 @@
           Mind the input validation.<br /><br />
 
           Example:<br />
-          { 6, 2, 1, 8, 10 } => 16<br />
-          { 1, 1, 11, 2, 3 } => 6<br /><br />
+          { 6, 2, 1, 8, 10 } =&gt; 16<br />
+          { 1, 1, 11, 2, 3 } =&gt; 6<br /><br />
 
           Input validation:<br />
           If an empty value ( null, None, Nothing etc. ) is given instead of an array, or the given array is an empty list or a list with only 1 element, return 0.
@@ -261,6 +261,196 @@
         </div>
         <div class="solution"><a href="https://github.com/mr-geones/disemvowel-trolls/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
         <div class="repository"><a href="https://github.com/mr-geones/disemvowel-trolls" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Is this a triangle?</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Implement a function that accepts 3 integer values a, b, c. The function should return true if a triangle can be built with the sides of given length and false in any other case.<br />
+          (In this case, all triangles must have surface greater than 0 to be accepted).
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/is-this-a-triangle/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/is-this-a-triangle" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Reversed sequence</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Build a function that returns an array of integers from n to 1 where n &lt; 0. <br />
+          Example : n=5 --&gt; [5,4,3,2,1]
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/reversed-sequence/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/reversed-sequence" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Convert number to reversed array of digits</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Given a random non-negative number, you have to return the digits of this number within an array in reverse order.<br />
+          Example (Input =&gt; Output):<br />
+          35231 =&gt; [1,3,2,5,3]<br />
+          0 =&gt; [0]
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/convert-number-to-reversed-array-of-digits/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/convert-number-to-reversed-array-of-digits" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Square and sum</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Complete the square sum function so that it squares each number passed into it and then sums the results together.<br />
+          For example, for [1, 2, 2] it should return 9 because 1<sup>2</sup> + 2<sup>2</sup> + 2<sup>2</sup> = 9
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/square-n-sum/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/square-n-sum" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Sum of positive</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>You get an array of numbers, return the sum of all of the positives ones.<br />
+          Example [1,-4,7,12] =&gt; 1 + 7 + 12 = 20 <br />
+          Note: if there is nothing to sum, the sum is default to 0.
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/sum-of-positive/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/sum-of-positive" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Rock Paper Scissors</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Let's play! You have to return which player won! In case of a draw return Draw!<br />
+          Examples (Input1, Input2 --&gt; Output):<br />
+          "scissors", "paper" --&gt; "Player 1 won!"<br />
+          "scissors", "rock" --&gt; "Player 2 won!"<br />
+          "paper", "paper" --&gt; "Draw!"
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/rock-paper-scissors/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/rock-paper-scissors" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Convert a string to a number</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>We need a function that can transform a string into a number. What ways of achieving this do you know?<br />
+          Note: Don't worry, all inputs will be strings, and every string is a perfectly valid representation of an integral number.<br />
+          Examples:<br />
+          "1234" --&gt; 1234<br />
+          "605" --&gt; 605
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/convert-a-string-to-a-number/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/convert-a-string-to-a-number" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Century from year</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc. Task Given a year, return the century it is in.<br />
+
+          Examples:<br />
+          1705 --&gt; 18<br />
+          1900 --&gt; 19<br />
+          1601 --&gt; 17<br />
+          2000 --&gt; 20
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/century-from-year/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/century-from-year" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Will you make it?</span></div>
+        <div class="challenge"><span>Challenge: </span>You were camping with your friends far away from home, but when it's time to go back, you realize that your fuel is running out and the nearest pump is 50 miles away! You know that on average, your car runs on about 25 miles per gallon. There are 2 gallons left. Considering these factors, write a function that tells you if it is possible to get to the pump or not. Function should return true if it is possible and false if not.</div>
+        <div class="solution"><a href="https://github.com/mr-geones/will-you-make-it/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/will-you-make-it" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Simple multiplication</span></div>
+        <div class="challenge"><span>Challenge: </span>This challenge is about multiplying a given number by eight if it is an even number and by nine otherwise.</div>
+        <div class="solution"><a href="https://github.com/mr-geones/simple-multiplication/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/simple-multiplication" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Sentence smash</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Write a function that takes an array of words and smashes them together into a sentence and returns the sentence. You can ignore any need to sanitize words or add punctuation, but you should add spaces between each word. Be careful, there shouldn't be a space at the beginning or the end of the sentence!<br />
+          Example<br />
+          ['hello', 'world', 'this', 'is', 'great'] => 'hello world this is great'
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/sentence-smash/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/sentence-smash" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Lost without a map</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Given an array of integers, return a new array with each value doubled.<br />
+          For example:<br />
+          [1, 2, 3] --&gt; [2, 4, 6]
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/lost-without-a-map/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/lost-without-a-map" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>How good are you really?</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>There was a test in your class and you passed it. Congratulations! But you're an ambitious person. You want to know if you're better than the average student in your class. You receive an array with your peers' test scores. Now calculate the average and compare your score! Return True if you're better, else False!<br />
+
+          Note:<br />
+          Your points are not included in the array of your class's points. For calculating the average point you may add your point to the given array!
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/how-good-are-you-really/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/how-good-are-you-really" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Counting sheep</span></div>
+        <div class="challenge">
+          <span>Challenge: </span>Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).<br /><br />
+          For example,<br />
+          [true, true, true, false,<br />
+          true, true, true, true,<br />
+          true, false, true, false,<br />
+          true, false, false, true,<br />
+          true, true, true, true,<br />
+          false, false, true, true]<br /><br />
+
+          The correct answer would be 17.<br /><br />
+
+          Hint: Don't forget to check for bad values like null/undefined
+        </div>
+        <div class="solution"><a href="https://github.com/mr-geones/counting-sheep/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/counting-sheep" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Even or odd</span></div>
+        <div class="challenge"><span>Challenge: </span>Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.</div>
+        <div class="solution"><a href="https://github.com/mr-geones/even-or-odd/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/even-or-odd" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Leap year</span></div>
+        <div class="challenge"><span>Challenge: </span>Create a function than determines wether the given year is a leap year or not.</div>
+        <div class="solution"><a href="https://github.com/mr-geones/leap-year/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/leap-year" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span>Fizzbuzz</span></div>
+        <div class="challenge"><span>Challenge: </span>Players take turns to count incrementally, replacing any number divisible by three with the word "fizz", and any number divisible by five with the word "buzz", and any number divisible by both 3 and 5 with the word "fizzbuzz".</div>
+        <div class="solution"><a href="https://github.com/mr-geones/fizzbuzz/blob/main/solution.js" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="https://github.com/mr-geones/fizzbuzz" title="Repository">Link to the repository on Github</a></div>
+      </li>
+
+      <li>
+        <div class="project"><span></span></div>
+        <div class="challenge"><span>Challenge: </span></div>
+        <div class="solution"><a href="" title="Solution">Link to my solution on Github</a></div>
+        <div class="repository"><a href="" title="Repository">Link to the repository on Github</a></div>
       </li>
 
       <li>
