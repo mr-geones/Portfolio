@@ -79,6 +79,10 @@ sup {
   color: var(--clr-github-yellow);
 }
 
+.react {
+  color: var(--clr-github-green);
+}
+
 .project span {
   font-size: 1.4rem;
   font-weight: var(--font-medium);
