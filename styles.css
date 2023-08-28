@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,600&display=swap");
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-size: 16px;
 
   --clr-font: #f0f0f0;
@@ -19,9 +19,7 @@
   --clr-github-gray: #6d7580;
 
   --font-regular: 400;
-  --font-medium: 500;
-  --font-bold: 700;
-  --font-heavy: 900;
+  --font-bold: 600;
 }
 
 body {
@@ -32,15 +30,15 @@ body {
 
 h2 {
   color: var(--clr-font);
-  font-size: 1.6rem;
-  font-weight: var(--font-medium);
+  font-size: 1.3rem;
+  font-weight: var(--font-regular);
   margin-top: 2.2rem;
   margin-bottom: 0.5rem;
 }
 
 h2 > span {
-  font-size: inherit;
-  font-weight: var(--font-heavy);
+  font-size: 1.4rem;
+  font-weight: var(--font-regular);
 }
 
 li {
@@ -55,7 +53,7 @@ div {
 }
 
 div > span {
-  font-weight: var(--font-medium);
+  font-weight: var(--font-regular);
 }
 
 a {
@@ -84,8 +82,8 @@ sup {
 }
 
 .project span {
-  font-size: 1.4rem;
-  font-weight: var(--font-medium);
+  font-size: 1.2rem;
+  font-weight: var(--font-regular);
   color: var(--clr-github-orange);
 }
 
@@ -114,7 +112,7 @@ sup {
 }
 
 .solution > a {
-  font-weight: var(--font-medium);
+  font-weight: var(--font-regular);
   color: var(--clr-github-blue);
 }
 
